@@ -1,2 +1,4 @@
-test.aspx
-//fixing the comments
+exports.CurrentDateTime = function () {
+    var d = new Date();
+    return d;
+};
